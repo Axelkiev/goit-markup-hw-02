@@ -41,7 +41,13 @@ body {
   color: #2e2f42;
 }
 .header-link:is(:hover, :focus) {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+.header-address {
+  font-style: normal;
+}
+.header-address-list {
+  font-style: normal;
 }
 .header-email {
   font-weight: 400;
