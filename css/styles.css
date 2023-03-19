@@ -8,8 +8,7 @@ body {
 }
 .header {
 }
-.header-navigation {
-}
+
 .link {
   text-decoration: none;
 }
@@ -33,7 +32,6 @@ body {
 }
 
 .header-item {
-  color: aqua;
 }
 .header-link {
   font-weight: 500;
