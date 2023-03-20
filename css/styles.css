@@ -40,7 +40,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-link: hover {
+.header-link :hover {
   color: #404bbf;
 }
 :focus {
@@ -100,8 +100,12 @@ body {
   cursor: pointer;
   background-color: #4d5ae5;
 }
-.hero-btn:is(:hover, :focus) {
+.hero-btn: :hover {
   color: #404bbf;
+}
+:focus {
+  color: #404bbf;
+}
 }
 .advantages {
 }
