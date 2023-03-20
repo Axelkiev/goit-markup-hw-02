@@ -12,10 +12,6 @@ body {
 .link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
-  color: #404bbf;
-}
 .list {
   list-style: none;
 }
@@ -103,7 +99,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .advantages {
@@ -112,6 +108,7 @@ body {
   background-color: #ffffff;
 }
 .portfolio-button-list {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -119,11 +116,14 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  background-color: #f4f4fd;
   color: #4d5ae5;
   cursor: pointer;
 }
-.portfolio-button-list:is(:hover, :focus) {
+.portfolio-button-list:hover,
+.portfolio-button-list:focus {
   color: #ffffff;
+  background-color: #404bbf;
 }
 /*--------------section1------*/
 .advantages-title {
