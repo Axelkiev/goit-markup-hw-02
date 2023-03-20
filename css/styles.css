@@ -101,7 +101,8 @@ body {
   cursor: pointer;
   background-color: #4d5ae5;
 }
-.hero-btn:hover .hero-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   color: #404bbf;
 }
 
@@ -156,7 +157,7 @@ body {
 .team-top-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -165,7 +166,7 @@ body {
 .smol-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--mein-titl-color);
