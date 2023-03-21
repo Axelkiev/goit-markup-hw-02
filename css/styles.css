@@ -1,10 +1,10 @@
 :root {
-  --mein-title-color: #2e2f42;
+  --main-title-color: #2e2f42;
   --primary-brand-color: #404bbf;
   --pressed-state-color: #4d5ae5;
   --text-color: #434455;
   --white-color: #ffffff;
-  --cloud-light-color:#f4f4fd;
+  --cloud-light-color: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -30,7 +30,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-brand-color);
+  color: var(--pressed-state-color);
 }
 
 .header-link {
@@ -70,7 +70,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.header-phone:is(:hover, :focus) {
+.header-phone:hover,
+.header-phone:focus {
   color: var(--primary-brand-color);
 }
 
@@ -98,14 +99,15 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-color);
   cursor: pointer;
-  background-color: var(--primary-brand-color);
+  background-color: var(--pressed-state-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--primary-brand-color);
 }
 
-.advantages {
+.advantages-hidden {
+  color: var(--main-title-color);
 }
 .team-background {
   background-color: var(--white-color);
@@ -119,8 +121,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  background-color: var(--cloud-light-color)
-  color: var(--primary-brand-color);
+  background-color: var(--cloud-light-color);
+  color: var(--pressed-state-color);
   cursor: pointer;
 }
 .portfolio-button-list:hover,
@@ -134,7 +136,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--mein-titl-color);
+  color: var(--main-titl-color);
 }
 .advantages-text {
   font-weight: 400;
@@ -151,11 +153,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--mein-titl-color);
+  color: var(--main-title-color);
 }
 /*--------------section3------*/
 .team {
-  background: var(--cloud-light-color)
+  background: var(--cloud-light-color);
 }
 .team-top-title {
   font-weight: 700;
@@ -164,7 +166,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--mein-titl-color);
+  color: var(--main-title-color);
 }
 .smol-title {
   font-weight: 500;
@@ -172,7 +174,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--mein-titl-color);
+  color: var(--main-title-color);
 }
 .smol-text {
   font-weight: 900;
@@ -190,10 +192,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-brand-color);
+  color: var(--pressed-state-color);
 }
 .footer-color-logo {
-  color: var(--cloud-light-color)
+  color: var(--cloud-light-color);
 }
 
 .footer {
@@ -205,5 +207,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud-light-color)
+  color: var(--cloud-light-color);
 }
