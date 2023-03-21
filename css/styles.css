@@ -51,27 +51,15 @@ body {
 .header-address-list {
   font-style: normal;
 }
-.header-email {
+.header-contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.header-email:hover,
-.header-email:focus {
-  color: var(--primary-brand-color);
-}
-
-.header-phone {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-.header-phone:hover,
-.header-phone:focus {
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--primary-brand-color);
 }
 
